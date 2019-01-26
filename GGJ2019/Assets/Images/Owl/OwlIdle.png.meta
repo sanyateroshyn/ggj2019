@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: b7585c31bfbd3ed408ebbdc12fa9f414
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: OwlIdle_0
+    21300002: OwlIdle_1
+    21300004: OwlIdle_2
+    21300006: OwlIdle_3
+    21300008: OwlIdle_4
+    21300010: OwlIdle_5
+    21300012: OwlIdle_6
+    21300014: OwlIdle_7
+    21300016: OwlIdle_8
+    21300018: OwlIdle_9
+    21300020: OwlIdle_10
+    21300022: OwlIdle_11
+    21300024: OwlIdle_12
+    21300026: OwlIdle_13
+    21300028: OwlIdle_14
+    21300030: OwlIdle_15
+    21300032: OwlIdle_16
+    21300034: OwlIdle_17
+    21300036: OwlIdle_18
+    21300038: OwlIdle_19
+    21300040: OwlIdle_20
+    21300042: OwlIdle_21
+    21300044: OwlIdle_22
+    21300046: OwlIdle_23
+    21300048: OwlIdle_24
+    21300050: OwlIdle_25
+    21300052: OwlIdle_26
+    21300054: OwlIdle_27
+    21300056: OwlIdle_28
+    21300058: OwlIdle_29
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OwlIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2785
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35580a90e42f6ba49bd0e07a1acf64c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_1
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2785
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0360e43fe10b164c92f4e7f046ccac5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_2
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2785
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d23a45e05df8e439e9c87d9a9a4000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_3
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 2785
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafd775c24d16fe44b17a883424637a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_4
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 2785
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951cd08d1a068a14e9f99632a0b59a18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2228
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaae86307b7ec2418916e408cf9c7b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2228
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69649595da27e9648a0e48ebd27febf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_7
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 2228
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b972049064d61409cea39c9478f170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_8
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 2228
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2097359e663439840940ed8c13abb991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_9
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 2228
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e02cafbe5d414a4c81584bb1396109f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1671
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b64229db3dfc447a2dca9e59320fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_11
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1671
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da174bb0bee32384490ab0e9df1c33b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_12
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1671
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61912e168dda6145928178a21b939f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_13
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1671
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e93e240763e8bb4c87b50f851c4208c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_14
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1671
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d85b96c5c586c47a37b79948ba9b06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1114
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294588bef53760649a1d65f3ca291623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_16
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1114
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f4625bbb3f5a84093057c7368f46d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1114
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da55a7f0a928f2543ad740bcea264e12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_18
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1114
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ebb5e62cb9b624a85b124f1213979c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_19
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1114
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cf8bd621f22c24c94b85c4b1389757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 557
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20ed1ee454af7949837f576c62c8a19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_21
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 557
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35712d4a6176f674eaba65d6b6f1e338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_22
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 557
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c95b917a06628429d15e841ca7a4e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_23
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 557
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4352421f6f2cb4d9586f8717d590b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_24
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 557
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed39a725ac74b7b48bbec4244c22fe5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32797e7e5874dd45ac8fe6b40248fe6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_26
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a59dd1e7b705e7469e23f0288cb03aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_27
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 0
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2928225d23fa274e82e12628a14e84e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_28
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 0
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd7021a6ad986e488cfd36261954aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlIdle_29
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 572
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304e01976a8742548860976a8618ec37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ebf134ca5432d1941906b5b0e86632bc
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
