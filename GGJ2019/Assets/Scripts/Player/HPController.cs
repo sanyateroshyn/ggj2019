@@ -1,4 +1,5 @@
 ﻿using CnControls;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -102,14 +103,12 @@ public class HPController : MonoBehaviour {
 	void hpBarUpdate()
 	{
 		hpBarContent.fillAmount= (hp*1f)/(maxHp*1f);
-	  	PlayerPrefs.SetInt("playerHp", hp);
+	  	
 	}
 
 	void lifesBarController()
 	{
-		PlayerPrefs.SetInt("playerLifes", lifes);
 
-		
 		for(int i = 1; i<lifesImages.Length;i++)
 		{
 			lifesImages[i].gameObject.SetActive(false);
