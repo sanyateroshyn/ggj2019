@@ -135,8 +135,7 @@ public class PlayerMoovement : MonoBehaviour {
 
 		if (other.gameObject.tag == "Die") {
 			transform.position = LastCheckPoint().position;
-
-			//gameObject.GetComponent<HPController>().takeDamage(100); // раскоментить
+			gameObject.GetComponent<HPController>().takeDamage(100); // раскоментить
 		}
 
 

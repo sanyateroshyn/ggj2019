@@ -87,8 +87,9 @@ public class HPController : MonoBehaviour {
 			}
 			else
 			{
-				 //SceneManager.LoadScene("LoseScene");
+				 SceneManager.LoadScene(0);
 				 //TODO : revork die;
+
 			}
 		}
 		else
