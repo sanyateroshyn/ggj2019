@@ -13,10 +13,10 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
-	private bool m_Grounded;            // Whether or not the player is grounded.
+	public bool m_Grounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
-	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+	public bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
 	[Header("Events")]
@@ -59,6 +59,8 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 	}
+
+
 
 
 	public void Move(float move, bool crouch, bool jump)
@@ -133,7 +135,18 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 
-	private void Flip()
+	public void Jump(float axis) {
+		if (axis >= 0f) {
+			GetComponent<Rigidbody2D>().AddForce(Vector2.right * m_JumpForce * new Vector2(0, m_JumpForce));
+		} else {
+			GetComponent<Rigidbody2D>().AddForce(Vector2.left * m_JumpForce * new Vector2(0, m_JumpForce));
+		}
+		m_Grounded = false;
+		//m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+	}
+
+
+	public void Flip()
 	{
 		// Switch the way the player is labelled as facing.
 		m_FacingRight = !m_FacingRight;
