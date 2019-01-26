@@ -34,12 +34,6 @@ public class HPController : MonoBehaviour {
 	}
 
 
-	private void Update() {
-		if (CnInputManager.GetButtonDown("Fire1")) {
-			takeDamage(10);
-		}
-	}
-
 
 	public void takeHp(int takeHp)
 	{

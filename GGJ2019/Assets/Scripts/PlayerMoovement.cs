@@ -7,6 +7,7 @@ public class PlayerMoovement : MonoBehaviour {
 
 	public CharacterController2D controller;
 	public Animator animator;
+	public GameObject AttakBTN;
 
 	public float Speed;
 	public float walkSpeed = 40;
@@ -23,6 +24,7 @@ public class PlayerMoovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		AttakBTN.SetActive(false);
 
 		controller = GetComponent<CharacterController2D>();
 		animator = GetComponent<Animator>();
@@ -52,6 +54,8 @@ public class PlayerMoovement : MonoBehaviour {
 		if (CnInputManager.GetButtonDown("GetSword")) {
 
 			animator.SetBool("Swording", !animator.GetBool("Swording"));
+
+			AttakBTN.SetActive(animator.GetBool("Swording"));
 		}
 
 		if(animator.GetBool("Swording") && CnInputManager.GetButtonDown("Fire1") && forAttack) {

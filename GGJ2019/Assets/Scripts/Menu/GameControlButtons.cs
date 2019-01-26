@@ -23,7 +23,7 @@ public class GameControlButtons : MonoBehaviour {
  }
   public void MainMenu()
  {
-	 	SceneManager.LoadScene("MainMenu");
+	 	//SceneManager.LoadScene("MainMenu");
 }
  public void pauseGame()
  {
