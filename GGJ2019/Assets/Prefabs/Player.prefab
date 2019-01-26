@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 50596228184034288}
   - component: {fileID: 61124718838917128}
   - component: {fileID: 58010675438678256}
+  - component: {fileID: 114850148528386172}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -70,8 +71,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1934618791242110}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.67, y: -1.5756936, z: -1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.37, y: -1.94, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 4972165848817498}
@@ -155,9 +156,9 @@ BoxCollider2D:
   m_Offset: {x: 0.57094574, y: 3.4730597}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 6.5, y: 5.1}
-    newSize: {x: 5.63, y: 5.3199997}
+    pivot: {x: 0.46, y: 0.164}
+    oldSize: {x: 7, y: 5.5}
+    newSize: {x: 6.5, y: 5.1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -198,8 +199,8 @@ MonoBehaviour:
   climbDownInterval: 0.05
   swingForce: 10
   delayBeforeSecondHang: 0.5
-  AddForceY: 400
-  AddForceX: 200
+  AddForceY: 500
+  AddForceX: 300
 --- !u!114 &114612401293845792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -244,9 +245,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dff9e0548640eb46a16978d3921bd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 114612401293845792}
-  runSpeed: 40
+  controller: {fileID: 0}
+  animator: {fileID: 0}
+  Speed: 0
+  walkSpeed: 20
+  runSpeed: 50
   jump: 0
+--- !u!114 &114850148528386172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934618791242110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd8d49d0d677924296e0e8bb05cf465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLifes: 5
+  maxHp: 100
+  lifes: 5
+  hp: 100
+  lifesBar: {fileID: 0}
+  hpBarContent: {fileID: 0}
 --- !u!212 &212237855741075336
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -281,13 +302,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: ba7ea89eafcccd84289139837addd312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.63, y: 5.3199997}
+  m_Size: {x: 6.5, y: 5.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
