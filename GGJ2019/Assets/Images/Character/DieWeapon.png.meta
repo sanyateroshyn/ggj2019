@@ -1,13 +1,28 @@
 fileFormatVersion: 2
 guid: bfdb8860fdf181b45ae67c46bbe6a448
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: DieWeapon_0
+    21300002: DieWeapon_1
+    21300004: DieWeapon_2
+    21300006: DieWeapon_3
+    21300008: DieWeapon_4
+    21300010: DieWeapon_5
+    21300012: DieWeapon_6
+    21300014: DieWeapon_7
+    21300016: DieWeapon_8
+    21300018: DieWeapon_9
+    21300020: DieWeapon_10
+    21300022: DieWeapon_11
+    21300024: DieWeapon_12
+    21300026: DieWeapon_13
+    21300028: DieWeapon_14
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
-    sRGBTexture: 1
+    enableMipMap: 0
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -34,24 +49,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +84,324 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DieWeapon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c5613e4b436014594c5c13eca3743f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2250
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974f5ff7085e68049b94c7216edd0fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2250
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e87017ffc3ab5e41a37df86d28d5f2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2250
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc4da87cee8ae547abc9cca71abd9ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0889b6bbe80c759459f44a89e92c1226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1500
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5f341ef1544b7498b7b7e9c189b56d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_6
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1500
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974a4c8edba2e3146ad0e59f936ea121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1500
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d6adbbc66e8d4e89cb5f708dda0e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053115f6592a6ca449c5ae7a7335236c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 750
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d485ca5a069b14449927831b18ce158a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 750
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700abb00752e2e540920927a9bf9b440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 750
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d45bb7ac90c09498879575be050069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4490970566381e44dba83d55803aca41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e619e072e99eab46ba5c21a684c937a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DieWeapon_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 750
+      alignment: 9
+      pivot: {x: 0.6, y: 0.175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f72ef4629ca74d9d33af1ce05f8c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 34dc574ec5cdfe04e8cea9bcd07a8016
     vertices: []
     indices: 
     edges: []
