@@ -1,26 +1,25 @@
 fileFormatVersion: 2
-guid: d84a15627a6765840b9ee79f86658e22
+guid: 359a58c50ddadf04391b20894f5de11d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: RunWeapon_0
-    21300002: RunWeapon_1
-    21300004: RunWeapon_2
-    21300006: RunWeapon_3
-    21300008: RunWeapon_4
-    21300010: RunWeapon_5
-    21300012: RunWeapon_6
-    21300014: RunWeapon_7
-    21300016: RunWeapon_8
-    21300018: RunWeapon_9
-    21300020: RunWeapon_10
-    21300022: RunWeapon_11
-    2186277476908879412: ImportLogs
+    21300000: AttakWeapon1_0
+    21300002: AttakWeapon1_1
+    21300004: AttakWeapon1_2
+    21300006: AttakWeapon1_3
+    21300008: AttakWeapon1_4
+    21300010: AttakWeapon1_5
+    21300012: AttakWeapon1_6
+    21300014: AttakWeapon1_7
+    21300016: AttakWeapon1_8
+    21300018: AttakWeapon1_9
+    21300020: AttakWeapon1_10
+    21300022: AttakWeapon1_11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -45,7 +44,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -97,241 +96,241 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RunWeapon_0
+      name: AttakWeapon1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1220
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d97de0efa250cf1439aafd6a3a5257b0
+      spriteID: b93c4e4d8cb9dd5448059407a255632f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_1
+      name: AttakWeapon1_1
       rect:
         serializedVersion: 2
-        x: 850
+        x: 1080
         y: 1220
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fbc3f7bd555ede4ab65931273647069
+      spriteID: e7a5b82307f72dd4cb6d269971b0aac0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_2
+      name: AttakWeapon1_2
       rect:
         serializedVersion: 2
-        x: 1700
+        x: 2160
         y: 1220
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef512e799a0e0b148acb7a07e060fc7f
+      spriteID: d33e3451f385eaf4f915941306e7947e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_3
+      name: AttakWeapon1_3
       rect:
         serializedVersion: 2
-        x: 2550
+        x: 3240
         y: 1220
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8913b7d66d73de43b299ed0765541e5
+      spriteID: 026a0a9352522c3439fe75242d8805aa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_4
+      name: AttakWeapon1_4
       rect:
         serializedVersion: 2
         x: 0
         y: 610
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a7e15a925233214486687e177a3401b
+      spriteID: 7ac66183d628c984c947697be17da278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_5
+      name: AttakWeapon1_5
       rect:
         serializedVersion: 2
-        x: 850
+        x: 1080
         y: 610
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48677f0d44fc6b5498767be1c3c4e443
+      spriteID: 2634e8e81c472d548975f11f0bbdecc4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_6
+      name: AttakWeapon1_6
       rect:
         serializedVersion: 2
-        x: 1700
+        x: 2160
         y: 610
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6afb0b57d9dd39f45a0c1c5fce0227e6
+      spriteID: 9257dc13fb1ca8a4a946826e87cad56f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_7
+      name: AttakWeapon1_7
       rect:
         serializedVersion: 2
-        x: 2550
+        x: 3240
         y: 610
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c6529ee8d83caa48b6f7fe6597a1360
+      spriteID: 7139c96e0e1b2eb4daefcae2054c41a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_8
+      name: AttakWeapon1_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 985e44dc10c809344b7e0e8f7285bec0
+      spriteID: 82e6539e7dc55b54fbeb8dfbafaa22fc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_9
+      name: AttakWeapon1_9
       rect:
         serializedVersion: 2
-        x: 850
+        x: 1080
         y: 0
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8d342f38203e7045b504f761a76c6fa
+      spriteID: 9e77a74145c82c444aa5abe4464ec2a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_10
+      name: AttakWeapon1_10
       rect:
         serializedVersion: 2
-        x: 1700
+        x: 2160
         y: 0
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667748e0523b728449c6d11547079343
+      spriteID: 216dc5cefa7f98445b7fad5d2f287bb0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RunWeapon_11
+      name: AttakWeapon1_11
       rect:
         serializedVersion: 2
-        x: 2550
+        x: 3240
         y: 0
-        width: 850
+        width: 1080
         height: 610
       alignment: 9
-      pivot: {x: 0.47, y: 0.15}
+      pivot: {x: 0.36, y: 0.155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 201ab1f9b0966eb4ea238f4e96497519
+      spriteID: 73c65b821a6a7eb4e854944e9923721e
       vertices: []
       indices: 
       edges: []
@@ -339,7 +338,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2ff4d2615b41cb1499c27ac9fac1140a
+    spriteID: a572b481e76c97c44ac2167f489f3ef4
     vertices: []
     indices: 
     edges: []
