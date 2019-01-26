@@ -9,8 +9,7 @@ public class GameControlButtons : MonoBehaviour {
  public void startGame()
  {
 	 	SceneManager.LoadScene("level1");
-	 	PlayerPrefs.DeleteKey("playerHp");
-		PlayerPrefs.DeleteKey("playerLifes");
+
  }
  void Start()
  {
@@ -23,7 +22,7 @@ public class GameControlButtons : MonoBehaviour {
  }
   public void MainMenu()
  {
-	 	SceneManager.LoadScene("MainMenu");
+	 	//SceneManager.LoadScene("MainMenu");
 }
  public void pauseGame()
  {
