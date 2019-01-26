@@ -1,4 +1,5 @@
 ﻿using CnControls;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,9 +21,14 @@ public class PlayerMoovement : MonoBehaviour {
 	bool ifCanMoove = true;
 	bool forAttack = true;
 
+	public CheckPointController[] Points;
 
 	// Use this for initialization
 	void Start () {
+
+
+		Points = GameObject.Find("CheckPointS").GetComponentsInChildren<CheckPointController>();
+
 
 		controller = GetComponent<CharacterController2D>();
 		animator = GetComponent<Animator>();
@@ -103,4 +109,45 @@ public class PlayerMoovement : MonoBehaviour {
 		jump = false;
 
 	}
+
+
+	private void OnCollisionEnter2D(Collision2D collision) {
+	
+			if (collision.gameObject.tag == "panel") {
+				transform.SetParent(collision.gameObject.transform);
+			} else {
+
+				transform.SetParent(null);
+			}
+
+
+
+		
+
+	}
+
+
+	void OnTriggerEnter2D(Collider2D other) {
+
+		if (other.gameObject.tag == "Die") {
+			transform.position = LastCheckPoint().position;
+
+			//gameObject.GetComponent<HPController>().takeDamage(100); // раскоментить
+		}
+
+
+
+		if (other.tag == "CheckPoint") {
+			other.GetComponent<CheckPointController>().active = true;
+
+		}
+	}
+
+	public Transform LastCheckPoint() {
+
+		return (Array.FindLast(Points, x => x.Active)).gameObject.transform;
+	}
+
+
+
 }

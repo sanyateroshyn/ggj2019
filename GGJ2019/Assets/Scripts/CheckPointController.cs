@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CheckPointController : MonoBehaviour {
-[SerializeField] Sprite sprite1;
-[SerializeField] Sprite sprite2;
-[SerializeField] bool active;
+
+[SerializeField] public bool active;
 
     public bool Active
     {
@@ -24,17 +23,7 @@ public class CheckPointController : MonoBehaviour {
     // Use this for initialization
     void Start () 
 	{
-
-	active = false;	
+		active = false;	
 	}
 	
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if(other.tag =="Player")
-		{
-			active = true;
-			GetComponent<SpriteRenderer>().sprite = sprite2;
-
-		}
-	}
 }
