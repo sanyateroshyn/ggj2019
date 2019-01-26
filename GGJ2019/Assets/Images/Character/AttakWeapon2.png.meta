@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 6e2ac662b44d8ec4d959baa014c63bb6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AttakWeapon2_0
+    21300002: AttakWeapon2_1
+    21300004: AttakWeapon2_2
+    21300006: AttakWeapon2_3
+    21300008: AttakWeapon2_4
+    21300010: AttakWeapon2_5
+    21300012: AttakWeapon2_6
+    21300014: AttakWeapon2_7
+    21300016: AttakWeapon2_8
+    21300018: AttakWeapon2_9
+    21300020: AttakWeapon2_10
+    21300022: AttakWeapon2_11
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AttakWeapon2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51483303bd20db4e98376a7815288a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_1
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1220
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafc0b8ee56e74847a8d6cb0a337a4f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_2
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1220
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d308d8ef57fa39647a281ee9e897e0a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_3
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1220
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179eb29fb1a72b44d85c3e7d429f40ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbcb47492c974440b18bf673e1e1940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 610
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6662b4e8d21f5764bbcd18a77c599c90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_6
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 610
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab74885d05c0ff47933c2f86e24e727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_7
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 610
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afda0c203e4c13449bb3a3712b61ef19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97ca18bd67d66a4daaa51d78f56b136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bb019f96249c6479f9f3e905b4d3b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_10
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076d3b7399d8b6240ba1b1145f2c0b4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttakWeapon2_11
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 0
+        width: 850
+        height: 610
+      alignment: 9
+      pivot: {x: 0.455, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2f6a109a52f1144bd312315cbc9eca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dbdd168bc538f73458899f39b916c841
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
