@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 //using UnityEditor;
 using System.Collections.Generic;
+using CnControls;
 
 public class RuntimeRope : MonoBehaviour{
 	public GameObject chainObject;			//object which will be used for creating rope
