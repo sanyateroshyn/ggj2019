@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using CnControls;
 
 public class RopeControlTwo : MonoBehaviour {
 
@@ -53,13 +54,13 @@ public class RopeControlTwo : MonoBehaviour {
 	void Update() {
 		if (onRope) {
 
-			float H = Input.GetAxis("Horizontal");
+			float H = CnInputManager.GetAxis("Horizontal");
 			//make player's position and rotation same as connected chain's
 			playerTransform.position = collidedChain.position;
 			playerTransform.localRotation = Quaternion.AngleAxis(direction, Vector3.forward);
 
 			//if up button is pressed and "chainIndex > 1" (there is another chain above player), climb up
-			if (Input.GetAxisRaw("Vertical") > 0 && chainIndex > 1) {
+			if (CnInputManager.GetAxisRaw("Vertical") > 0 && chainIndex > 1) {
 				timer += Time.deltaTime;
 
 				if (timer > climbUpInterval) {
@@ -69,7 +70,7 @@ public class RopeControlTwo : MonoBehaviour {
 			}
 
 			//if down button is pressed and "chainIndex < 1" (there is another chain below player), climb down
-			if (Input.GetAxisRaw("Vertical") < 0) {
+			if (CnInputManager.GetAxisRaw("Vertical") < 0) {
 				if (chainIndex < chains.Count - 2) {   // -1 до последней -2 до предпоследней  --- заставить не спускаться на самую нижнюю ступень
 					timer += Time.deltaTime;
 
@@ -84,7 +85,7 @@ public class RopeControlTwo : MonoBehaviour {
 			}
 
 			//if jump button is pressed, jump from rope
-			if (Input.GetButtonDown("Jump")) {
+			if (CnInputManager.GetButtonDown("Jump")) {
 
 				StartCoroutine(JumpOff());
 
@@ -99,7 +100,7 @@ public class RopeControlTwo : MonoBehaviour {
 
 			}
 
-			// Cache the horizontal input.
+			// Cache the horizontal CnInputManager.
 			
 
 			if (H > 0 && !characterController.m_FacingRight)
