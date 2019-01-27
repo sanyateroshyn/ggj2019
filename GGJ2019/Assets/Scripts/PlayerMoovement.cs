@@ -132,13 +132,13 @@ public class PlayerMoovement : MonoBehaviour {
 
 
 	private void OnCollisionEnter2D(Collision2D collision) {
-	
-			if (collision.gameObject.tag == "panel") {
-				transform.SetParent(collision.gameObject.transform);
-			} else {
 
-				transform.SetParent(null);
-			}
+		if (collision.gameObject.tag == "panel") {
+			transform.SetParent(collision.gameObject.transform);
+		} else {
+
+			transform.SetParent(null);
+		}
 
 
 		//if (collision.gameObject.tag == "Enemy") {
@@ -189,23 +189,33 @@ public class PlayerMoovement : MonoBehaviour {
 
 
 		if (other.tag == "Bird") {
-			
+
 			CountBird++; // 
 			Destroy(other.gameObject);
 
 		}
 
-		if (other.tag == "Photo") 
-			{
+		if (other.tag == "Photo") {
 			CountPhotos++;
 			Destroy(other.gameObject);
 
 		}
 
 		if (other.tag == "EndOfLevel") {
-			if((LevelIndex == 4 && CountBird >=7)|| (LevelIndex == 6 && CountBird >= 10))
-			SceneManager.LoadScene(LevelIndex);
-
+			if (LevelIndex == 4) {
+				if (CountBird >= 7) {
+					SceneManager.LoadScene(LevelIndex);
+				} else {
+					POPUP.ShowMessage("Вы собрали не всех птенцев!!!");
+				}
+			}
+			if (LevelIndex == 6) {
+				if (CountBird >= 10) {
+					SceneManager.LoadScene(LevelIndex);
+				} else {
+					POPUP.ShowMessage("Вы собрали не все кусочки фотографии!!!");
+				}
+			}
 		}
 
 
@@ -226,6 +236,10 @@ public class PlayerMoovement : MonoBehaviour {
 
 	}
 
+	void OnTriggerExit2D(Collider2D other) 
+		{
+		POPUP.HideMessage();
+	}
 
 
 
