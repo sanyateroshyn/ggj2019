@@ -71,6 +71,7 @@ public class PlayerMoovement : MonoBehaviour {
 
 		if(animator.GetBool("Swording") && CnInputManager.GetButtonDown("Fire1") && forAttack) {
 			animator.SetTrigger("Attack");
+			AUDIO.s_Instance.PlayAttak();
 			StartCoroutine(WaitSecfloat(1f));
 
 		}
