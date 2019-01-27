@@ -23,6 +23,8 @@ public class PlayerMoovement : MonoBehaviour {
 	bool forAttack = true;
 
 
+	public GameObject sword;
+
 
 	public int CountBird = 0;
 
@@ -71,6 +73,7 @@ public class PlayerMoovement : MonoBehaviour {
 
 		if(animator.GetBool("Swording") && CnInputManager.GetButtonDown("Fire1") && forAttack) {
 			animator.SetTrigger("Attack");
+			sword.SetActive(true);
 			StartCoroutine(WaitSecfloat(1f));
 
 		}
@@ -105,6 +108,7 @@ public class PlayerMoovement : MonoBehaviour {
 		controller.enabled = false;
 		
 		yield return new WaitForSeconds(time);
+		sword.SetActive(false);
 		controller.enabled = true;
 		forAttack = true;
 		ifCanMoove = true;
@@ -130,10 +134,34 @@ public class PlayerMoovement : MonoBehaviour {
 			}
 
 
+		//if (collision.gameObject.tag == "Enemy") {
 
-		
+		//	if (goDi) {
+		//		gameObject.GetComponent<HPController>().takeDamage(10);
+		//		goDi = false;
+		//		StartCoroutine(Wait());
+		//	}
+
+		//}
+
 
 	}
+
+
+
+	private void OnCollisionStay2D(Collision2D collision) {
+
+		if (collision.gameObject.tag == "Enemy") {
+
+			if (goDi) {
+				gameObject.GetComponent<HPController>().takeDamage(10);
+				goDi = false;
+				StartCoroutine(Wait());
+			}
+
+		}
+	}
+
 
 
 	void OnTriggerEnter2D(Collider2D other) {
@@ -169,13 +197,16 @@ public class PlayerMoovement : MonoBehaviour {
 				StartCoroutine(Wait());
 			}
 
-			//CountBird++; // 
-			//Destroy(other.gameObject);
-
 		}
 
 
+
+
+
 	}
+
+
+
 
 	bool goDi = true;
 
