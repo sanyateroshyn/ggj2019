@@ -207,14 +207,14 @@ public class PlayerMoovement : MonoBehaviour {
 				if (CountBird >= 7) {
 					SceneManager.LoadScene(LevelIndex);
 				} else {
-					POPUP.ShowMessage("Вы собрали не всех птенцев!!!");
+					POPUP.ShowMessage("You have not collected all the chicks !!!");
 				}
 			}
 			if (LevelIndex == 6) {
 				if (CountPhotos >= 10) {
 					SceneManager.LoadScene(LevelIndex);
 				} else {
-					POPUP.ShowMessage("Вы собрали не все кусочки фотографии!!!");
+					POPUP.ShowMessage("You have not collected all the pieces of the photo !!!");
 				}
 			}
 		}

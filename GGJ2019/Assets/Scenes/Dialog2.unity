@@ -180,8 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0425\u043E\u0440\u043E\u0448\u043E, \u044F        \u043F\u043E\u043C\u043E\u0433\u0443
-    \u0442\u0435\u0431\u0435."
+  m_Text: Okay, I'll help you.
 --- !u!222 &1410709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3836,10 +3835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u043C\u043E\u0433\u0438 \u0441\u0442\u0440\u0430\u043D\u043D\u0438\u043A!!!
-    \u041C\u043E\u0438 \u043F\u0442\u0435\u043D\u0446\u044B \u0443\u0447\u0438\u043B\u0438\u0441\u044C
-    \u043B\u0435\u0442\u0430\u0442\u044C \u0438 \u043D\u0435 \u0432\u0435\u0440\u043D\u0443\u043B\u0438\u0441\u044C
-    \u0434\u043E\u043C\u043E\u0439!"
+  m_Text: Help the wanderer !!! My chicks learning to fly and did not return home!
 --- !u!222 &1657545612
 CanvasRenderer:
   m_ObjectHideFlags: 0

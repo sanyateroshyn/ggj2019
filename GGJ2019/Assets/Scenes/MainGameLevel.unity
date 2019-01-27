@@ -21243,8 +21243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4af2f66554dd2f4684efb6d9090a706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startText: "\u0412\u0430\u043C \u043D\u0443\u0436\u043D\u043E \u0441\u043E\u0431\u0440\u0430\u0442\u044C
-    \u0432 \u043B\u0435\u0441\u0443 \u0432\u0441\u0435\u0445 \u043F\u0442\u0435\u043D\u0446\u043E\u0432"
+  startText: You need to gather all the chicks in the forest.
   m_messageText: {fileID: 609495090}
   Dialog: {fileID: 489464576}
 --- !u!1 &522290992

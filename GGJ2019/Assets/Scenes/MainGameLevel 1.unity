@@ -21052,8 +21052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4af2f66554dd2f4684efb6d9090a706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startText: "\u0421\u043E\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0441\u0435
-    \u0447\u0430\u0441\u0442\u0438 \u0444\u043E\u0442\u043E!"
+  startText: Collect all the parts of the photo!
   m_messageText: {fileID: 572439465}
   Dialog: {fileID: 1302971034}
 --- !u!1 &522290992
