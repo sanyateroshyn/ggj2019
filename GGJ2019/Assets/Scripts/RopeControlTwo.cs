@@ -166,7 +166,8 @@ public class RopeControlTwo : MonoBehaviour {
 
 		//activate all colliders on player
 		foreach (var col in colliders) {
-			col.enabled = true;
+			col.isTrigger = false;
+			//col.enabled = true;
 		}
 	}
 
@@ -186,10 +187,13 @@ public class RopeControlTwo : MonoBehaviour {
 				anim.SetFloat("Speed", 0);
 				anim.SetBool("Swording", false);
 
-
 				//disable all player colliders
-				foreach (var col in colliders)
-					col.enabled = false;
+				foreach (var col in colliders) {
+
+					col.isTrigger = true;
+					//col.enabled = false;
+				}
+
 
 				var chainsParent = coll.transform.parent;   //get collided object's parent
 				chains = new List<Transform>();

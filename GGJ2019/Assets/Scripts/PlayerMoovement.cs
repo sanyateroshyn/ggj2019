@@ -22,6 +22,11 @@ public class PlayerMoovement : MonoBehaviour {
 	bool ifCanMoove = true;
 	bool forAttack = true;
 
+
+
+	public int CountBird = 0;
+
+
 	public CheckPointController[] Points;
 
 	// Use this for initialization
@@ -133,10 +138,12 @@ public class PlayerMoovement : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
 
-		if (other.gameObject.tag == "Die") {
-			transform.position = LastCheckPoint().position;
-			gameObject.GetComponent<HPController>().takeDamage(100); // раскоментить
-		}
+
+		//if (other.gameObject.tag == "Die") {
+		//	transform.position = LastCheckPoint().position;
+		//	gameObject.GetComponent<HPController>().takeDamage(100); // раскоментить
+
+		//}
 
 
 
@@ -144,8 +151,41 @@ public class PlayerMoovement : MonoBehaviour {
 			other.GetComponent<CheckPointController>().active = true;
 
 		}
+
+
+		if (other.tag == "Bird") {
+			
+			CountBird++; // 
+			Destroy(other.gameObject);
+
+		}
+
+
+		if (other.tag == "Owl") {
+
+			if (goDi) {
+				gameObject.GetComponent<HPController>().takeDamage(10);
+				goDi = false;
+				StartCoroutine(Wait());
+			}
+
+			//CountBird++; // 
+			//Destroy(other.gameObject);
+
+		}
+
+
 	}
 
+	bool goDi = true;
+
+	IEnumerator Wait() {
+
+		yield return new WaitForSeconds(1f);
+		goDi = true;
+	}
+
+	
 	public Transform LastCheckPoint() {
 
 		return (Array.FindLast(Points, x => x.Active)).gameObject.transform;

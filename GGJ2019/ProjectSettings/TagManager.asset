@@ -8,6 +8,9 @@ TagManager:
   - panel
   - Die
   - CheckPoint
+  - Enemy
+  - Bird
+  - Owl
   layers:
   - Default
   - TransparentFX
