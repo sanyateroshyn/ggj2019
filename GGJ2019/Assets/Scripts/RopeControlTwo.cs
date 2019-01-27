@@ -177,6 +177,9 @@ public class RopeControlTwo : MonoBehaviour {
 	IEnumerator OnCollisionEnter2D(Collision2D coll) {
 		//if collided object's tag is "rope2D" and it has HingeJoint2D component, connect player to that object
 		if (!characterController.m_Grounded && coll.gameObject.tag == "rope2D") {
+
+			player.AttakBTN.SetActive(false); // вырубить меч
+
 			var joint = coll.gameObject.GetComponent<HingeJoint2D>(); //get HingeJoint2D component from collided object
 
 			if (joint && joint.enabled) {
