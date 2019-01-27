@@ -11,6 +11,8 @@ TagManager:
   - Enemy
   - Bird
   - Owl
+  - Photo
+  - EndOfLevel
   layers:
   - Default
   - TransparentFX

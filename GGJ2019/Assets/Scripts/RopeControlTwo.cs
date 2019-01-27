@@ -39,7 +39,7 @@ public class RopeControlTwo : MonoBehaviour {
 		//get player's components
 		playerTransform = transform;
 
-		colliders = GetComponentsInChildren<Collider2D>();
+		colliders = GetComponents<Collider2D>();
 
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
@@ -169,6 +169,7 @@ public class RopeControlTwo : MonoBehaviour {
 			col.isTrigger = false;
 			//col.enabled = true;
 		}
+
 	}
 
 

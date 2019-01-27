@@ -3,8 +3,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMoovement : MonoBehaviour {
+
+	public int LevelIndex;
+
 
 	public CharacterController2D controller;
 	public Animator animator;
@@ -27,6 +31,8 @@ public class PlayerMoovement : MonoBehaviour {
 
 
 	public int CountBird = 0;
+
+	public int CountPhotos = 0;
 
 
 	public CheckPointController[] Points;
@@ -74,6 +80,7 @@ public class PlayerMoovement : MonoBehaviour {
 		if(animator.GetBool("Swording") && CnInputManager.GetButtonDown("Fire1") && forAttack) {
 			animator.SetTrigger("Attack");
 			sword.SetActive(true);
+			//AUDIO.s_Instance.PlayAttak();
 			StartCoroutine(WaitSecfloat(1f));
 
 		}
@@ -187,6 +194,20 @@ public class PlayerMoovement : MonoBehaviour {
 			Destroy(other.gameObject);
 
 		}
+
+		if (other.tag == "Photo") 
+			{
+			CountPhotos++;
+			Destroy(other.gameObject);
+
+		}
+
+		if (other.tag == "EndOfLevel") {
+			if((LevelIndex == 4 && CountBird >=7)|| (LevelIndex == 6 && CountBird >= 10))
+			SceneManager.LoadScene(LevelIndex);
+
+		}
+
 
 
 		if (other.tag == "Owl") {
