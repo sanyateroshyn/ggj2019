@@ -184,6 +184,7 @@ public class PlayerMoovement : MonoBehaviour {
 
 		if (other.tag == "CheckPoint") {
 			other.GetComponent<CheckPointController>().active = true;
+			other.GetComponent<BoxCollider2D>().enabled = false;
 
 		}
 
