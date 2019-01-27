@@ -59264,10 +59264,13 @@ EdgeCollider2D:
   - {x: 21.325317, y: 1.8349905}
   - {x: 22.641846, y: 1.9386487}
   - {x: 24.41391, y: 2.634021}
-  - {x: 26.116806, y: 3.1551971}
-  - {x: 26.82515, y: 3.336655}
-  - {x: 28.284332, y: 3.4639323}
-  - {x: 31.326813, y: 3.5238492}
+  - {x: 26.116806, y: 2.97725}
+  - {x: 26.325699, y: 3.064867}
+  - {x: 26.731934, y: 3.1671813}
+  - {x: 26.863785, y: 3.2099416}
+  - {x: 27.783325, y: 3.1722775}
+  - {x: 28.377548, y: 3.209722}
+  - {x: 31.49855, y: 3.1946685}
   - {x: 37.61357, y: 3.499665}
 --- !u!68 &1798193594
 EdgeCollider2D:
@@ -61733,6 +61736,11 @@ Prefab:
     - target: {fileID: 4043581461395180, guid: c24744f2cd750e644849c63374941f0e, type: 2}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212984306866439414, guid: c24744f2cd750e644849c63374941f0e,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c24744f2cd750e644849c63374941f0e, type: 2}

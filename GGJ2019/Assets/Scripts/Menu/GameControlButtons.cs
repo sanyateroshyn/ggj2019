@@ -22,8 +22,8 @@ public class GameControlButtons : MonoBehaviour {
  }
   public void MainMenu()
  {
-	 	//SceneManager.LoadScene("MainMenu");
-}
+		SceneManager.LoadScene(0);
+	}
  public void pauseGame()
  {
 	 	Time.timeScale = 0;

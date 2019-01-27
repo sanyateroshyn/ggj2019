@@ -17,7 +17,8 @@ public class EnemyHp : MonoBehaviour {
 		StartCoroutine(timeDeley());
 
 		thisHp = thisHp - takeDamage;
-		if(thisHp <= 0) {
+		if (AUDIO.s_Instance != null) AUDIO.s_Instance.PlayAttak();
+		if (thisHp <= 0) {
 			Destroy(gameObject);
 		}
 	}
