@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/StartGame.unity
     guid: 29ac5d6c386570c48bb5f4d31af3ee25
   - enabled: 1
+    path: Assets/Scenes/Dialog1.unity
+    guid: c388b96af0523be47b05abdfec63ee95
+  - enabled: 1
+    path: Assets/Scenes/Dialog2.unity
+    guid: 7e7afd7855a64024da8c8151a3eec8fa
+  - enabled: 1
     path: Assets/Scenes/MainGameLevel.unity
     guid: bb203bb45b3e9a44d9854e4209743ea1
+  - enabled: 1
+    path: Assets/Scenes/Dialog3.unity
+    guid: 2a353687b75b743469a31e4c0ee25c4d
   m_configObjects: {}
