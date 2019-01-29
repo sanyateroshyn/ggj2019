@@ -80,7 +80,7 @@ public class HPController : MonoBehaviour {
 			{
 				hp = maxHp;
 				lifes--;
-
+				//gameObject.GetComponent<PlayerMoovement>().OnDie();
 				lifesBarController();
 				
 				 
@@ -88,8 +88,8 @@ public class HPController : MonoBehaviour {
 			else
 			{
 				 SceneManager.LoadScene(0);
-				 //TODO : revork die;
-
+				//gameObject.GetComponent<PlayerMoovement>().OnDie();
+				// TODO: rework sheet 
 			}
 		}
 		else

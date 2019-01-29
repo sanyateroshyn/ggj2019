@@ -18,7 +18,7 @@ public class PlayerMoovement : MonoBehaviour {
 	public float walkSpeed = 40;
 	public float runSpeed = 60f;
 
-
+	bool stateSpeed = false;
 	float horizontalMove = 0f;
 	public bool jump = false;
 	//bool crouch = false;
@@ -58,7 +58,23 @@ public class PlayerMoovement : MonoBehaviour {
 			animator.SetFloat("Speed", Mathf.Abs(CnInputManager.GetAxisRaw("Horizontal")));
 		}
 
-		if(CnInputManager.GetButton("Run") && controller.m_Grounded) {
+#if UNITY_ANDROID
+
+		if (CnInputManager.GetButtonDown("Run") && controller.m_Grounded) {
+
+			stateSpeed = !stateSpeed;
+			animator.SetBool("Run", stateSpeed);
+			Speed = stateSpeed? runSpeed:walkSpeed;
+		}
+		//} else if (CnInputManager.GetButtonUp("Run")) {
+
+		//	animator.SetBool("Run", false);
+		//	Speed = walkSpeed;
+		//}
+#else 
+
+
+		if (CnInputManager.GetButton("Run") && controller.m_Grounded) {
 
 			animator.SetBool("Run", true);
 			Speed = runSpeed;
@@ -68,6 +84,8 @@ public class PlayerMoovement : MonoBehaviour {
 			animator.SetBool("Run", false);
 			Speed = walkSpeed;
 		}
+
+#endif
 
 		//GetSword
 		if (CnInputManager.GetButtonDown("GetSword")) {
